@@ -1,0 +1,44 @@
+@charset "UTF-8";
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(../img/textura2.png);
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+.retornoForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+    height: 300px;
+    padding: 30px;
+}
+.retornoForm h5{
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 50px; 
+}
+.retornoForm .btn{
+    width: 120px;
+    height: 30px;
+    color: #fff;
+    background-color:#2196f3;   
+    text-transform: uppercase;
+    text-decoration: none;
+    outline: none;
+    border-radius: 7px;
+    font-size: 1rem;
+    font-weight: 500;  
+    margin-top: 10px;   
+    text-align: center;
+    padding-top: 20px;
+    cursor: pointer;
+}
+.retornoForm .btn:hover{
+    background-color:#2195f3a1;
+}
